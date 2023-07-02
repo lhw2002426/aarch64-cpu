@@ -7,7 +7,7 @@
 
 //! Barrier functions.
 
-mod sealed {
+mod pub sealed {
     pub trait Dmb {
         fn __dmb(&self);
     }
